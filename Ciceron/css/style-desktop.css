@@ -1,0 +1,211 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+	}
+
+	body,input,textarea,select
+	{
+		font-size: 10pt;
+	}
+
+
+	header
+	{
+		margin-bottom: 1em;
+	}
+	
+		header h2
+		{
+			font-size: 3em;
+		}
+
+		header .byline
+		{
+			margin: 0.5em 0 0 0;
+			padding: 0.50em 0 0.5em 0;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		text-align: center;
+	}
+	
+		.homepage #header
+		{
+			padding: 6em 0em;
+		}
+
+		.homepage #header .container
+		{
+		padding: 3em 0em;
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 1em;
+	}
+	
+		#logo h1
+		{
+			color: #FFF;
+		}
+		#logo h2
+		{
+			color: #FFF;
+			text-transform: uppercase;
+			font-size: 3em;
+			letter-spacing: 1px;
+			font-weight: 900;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 4em;
+			font-weight: 900;
+			color: #FFF;
+		}
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #8e8588;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+	
+		#nav ul
+		{
+			display: inline-block;
+			padding: 0em 3em;
+			border-radius: 40px;
+			background: #5EB990;
+		}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1.5em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 990;
+				font-size: 1.19em;
+				outline: 0;
+				color: #111;
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 6em 0em;
+	}
+
+	.divider
+	{
+		margin: 7em 0em 5em 0em;
+	}
+
+	#content
+	{
+	}
+
+	#content header h2
+	{
+		letter-spacing: -1px;
+		font-size: 3em;
+	}
+	
+	#sidebar
+	{
+	}
+	
+	#sidebar header h2
+	{
+		font-size: 2em;
+	}
+	
+	#bloc_extrait{
+		font-size: 1.2em;
+		height : 195px;
+	}
+	#text_ref{
+		background:white;
+		padding:20px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 1.5em;
+		
+	}
+	#liste_extrait_discours *{
+		height:40px;
+		width:350px;
+		cursor:pointer;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer
+	{
+		padding: 6em 0em;
+	}
+	
+	
