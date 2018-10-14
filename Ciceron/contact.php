@@ -5,6 +5,14 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<style>
+			#banniere_image{
+				margin-top: 1px;
+				height: 1px;
+				border-radius: 5px;
+				position: relative;
+				box-shadow: 5px 4px 4px #1c1a19;}
+        </style>
 		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -17,38 +25,6 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<style>
-            .submit1{ /* Le bouton */
-                border:none;
-				cursor: pointer;
-                background-image:url('images/loupe.jpg');
-                background-repeat:no-repeat;
-                background-position:top left;
-                width: 40px;
-				padding:10px;
-                height: 40px;}
-            #search {
-				border: 3px solid white;
-				border-radius: 3px;
-				background:#FFF;
-				margin: auto;
-				width:350px;
-				height:52px;
-				box-shadow:2px 2px 2px rgba(0,0,0,.3);
-			}     
-            #search input[type=text]{ 
-                border:none;
-				font-size: large;
-				padding-left:10px;
-                width:300px;
-				height:42px;}
-			#banniere_image{
-				margin-top: 1px;
-				height: 1px;
-				border-radius: 5px;
-				position: relative;
-				box-shadow: 5px 4px 4px #1c1a19;}
-        </style>
 	</head>
 	<body>
 
@@ -84,6 +60,8 @@
 					<!-- Sidebar -->
 						<div id="sidebar" class="4u">
 							<section>
+							Pour plus d'informations, contacter Yannick Zanetti : 
+							<a href="mailto:diegoloic@hotmail.fr">Yannick.Zanetti@etu.unige.ch</a> 	
 							</section>
 						</div>
 					<!-- Sidebar -->
@@ -91,7 +69,7 @@
 					<!-- Content -->
 						<div id="content" class="8u skel-cell-important">
 							<section>
-								
+														
 							</section>
 						</div>
 					<!-- /Content -->

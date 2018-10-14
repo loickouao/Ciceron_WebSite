@@ -99,12 +99,22 @@
 	{
 	}
 	
-		#nav ul
+		.homepage #header #nav ul
 		{
 			display: inline-block;
 			padding: 0em 3em;
 			border-radius: 40px;
 			background: #5EB990;
+			height :72px;
+		}
+		#header #nav ul
+		{
+			display: inline-block;
+			padding: 0em 3em;
+			border-radius: 40px;
+			background: #5EB990;
+			height :60px;
+
 		}
 
 		#nav > ul > li
@@ -116,19 +126,21 @@
 			{
 				padding-right: 0;
 			}
-
+			.homepage #nav > ul > li > a,
+			.homepage #nav > ul > li > span
+			{padding: 1.5em 1.5em;}
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
 				display: block;
-				padding: 1.5em 1.5em;
+				padding: 1em 1.5em;
 				letter-spacing: 1px;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 990;
 				font-size: 1.19em;
 				outline: 0;
-				color: #111;
+				color: #131313;
 			}
 
 
@@ -153,16 +165,35 @@
 
 	#main
 	{
-		padding: 6em 0em;
+		padding: 4em 0em;
 	}
 
 	.divider
 	{
 		margin: 7em 0em 5em 0em;
 	}
-
-	#content
+	.divider2
 	{
+		margin: 1em 0em 1em 0em;
+		overflow: hidden;
+		border-top: 1px solid #dbdbdb;
+	}
+	#divtheme{
+		width:95%;
+		text-align:right;
+		padding-right:10px;
+	}
+	#divmeta{
+		float:left;
+	}
+	#divextrait{
+		padding-left:40px;
+		padding-right:20px;
+		text-align=justify;
+	}
+	#main .container
+	{
+		width:1250px;
 	}
 
 	#content header h2
@@ -170,9 +201,29 @@
 		letter-spacing: -1px;
 		font-size: 3em;
 	}
-	
-	#sidebar
+	#content
 	{
+		padding:0px;
+		margin-left:-40px;
+		width:900px;
+	}
+	#content2
+	{
+		float:left;
+		width:100%;
+		padding-top:60px;
+	}
+	#titre1 h2,#titre2 h2,#titre3 h2{
+		font-size: 1.8em;
+		margin-left:50px;
+		margin-right:50px;
+	}
+	#titre1,#titre2,#titre3{
+		width:400px;
+	}
+	#titre2{
+		text-align:right;
+		margin-top:-10px;
 	}
 	
 	#sidebar header h2
@@ -187,25 +238,61 @@
 	#text_ref{
 		background:white;
 		padding:20px;
-		font-family: "Times New Roman", Times, serif;
+		font-family: Garamond, "Times New Roman", Times, serif;
 		font-size: 1.5em;
+		overflow-y: scroll;
+		height:1200px; width:900px;
+		border-radius: 5px;
+		margin-top:-50px;
+		text-align: justify;
+	}
+	#text_extrait{
+		background:white;
+		padding:20px;
+		font-family: Garamond, "Times New Roman", Times, serif;
+		font-size: 1.5em;
+		overflow-y: scroll;
+		height:1250px;
+		border-radius: 5px;
+		margin-top:-50px;
+		text-align: justify;
+	}
+	#barright{
+		font-size: 1.4em;
+		margin-left:40px;
+		width:200px;
+		text-align:center;
 		
 	}
+	#liste_extrait_discours{margin-left:10px; margin-top:0px; border:none;border-radius: 5px;}
 	#liste_extrait_discours *{
-		height:40px;
-		width:350px;
+		height:30px;
+		border-radius: 5px;
+		padding-left:30px;
+		padding-top:4px;
+		width:250px;
 		cursor:pointer;
-		font-size: 14px;
+		font-size: 15px;
 		font-weight: bold;
 	}
-
+		#liste_metaphore_extrait{margin-left:10px; margin-top:0px; border:none;border-radius: 5px;}
+		#liste_metaphore_extrait *{
+			height:30px;
+			border-radius: 5px;
+			padding-left:30px;
+			padding-top:4px;
+			width:250px;
+			cursor:pointer;
+			font-size: 15px;
+			font-weight: bold;
+			}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 	
 	#footer
 	{
-		padding: 6em 0em;
+		padding: 5em 0em;
 	}
 	
 	

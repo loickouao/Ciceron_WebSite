@@ -1,0 +1,55 @@
+#divfiltre {width:1200px;
+	margin-top:-10px;
+	margin-right:70px;
+	margin-left: 70px;
+}
+#div1, #div2,#div3, #div4{float:left; padding-right:20px;}
+#divfiltre .labelcss{font-size: 17px;}
+
+.filtre{
+	margin-right:10px;
+	margin-top:3px;
+	width:310px;height:33px; padding-right:2px;border:1px solid #cdcdcd;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1
+}
+
+#form_filtre_metaphore .search {
+	width:310px;height:33px;margin:3px;padding:0 13px;border:1px solid #cdcdcd;
+	color:#ccc;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1
+}
+
+#form_filtre_metaphore .search:focus {
+	color:#555;border-color:#c8c8c8;	
+	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec
+}
+
+#form_filtre_metaphore .suggestions {
+	width:260px;margin:-6px auto 0;padding:0;list-style-type:none;border:1px solid #d5d4d4;background:#fff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:13px;color:#555;	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;	
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+	box-shadow:0 1px 3px rgba(0,0,0,0.1);
+	position: absolute;
+	margin-left:685px;
+	margin-top:60px;
+}
+#form_filtre_metaphore .suggestions li {height:25px;padding:0 10px;line-height:25px;cursor:pointer;border-top:1px solid #f5f5f5}
+#form_filtre_metaphore .suggestions li:hover {background:url(images/tick.png) no-repeat #fffac2;background-position:260px center;border-top-color:#fffac2;cursor:pointer}
+#form_filtre_metaphore .suggestions li:first-child {border:none; cursor:pointer;}

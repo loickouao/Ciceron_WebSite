@@ -1,35 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Métaphore de Cicéron</title>
+		<title>Métaphores de Cicéron</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		 <style>
-            .submit1{ /* Le bouton */
-                border:none;
-				cursor: pointer;
-                background-image:url('images/loupe.jpg');
-                background-repeat:no-repeat;
-                background-position:top left;
-                width: 40px;
-				padding:10px;
-                height: 40px;}
-            #search {
-				border: 3px solid white;
-				border-radius: 3px;
-				background:#FFF;
-				margin: auto;
-				width:350px;
-				height:52px;
-				box-shadow:2px 2px 2px rgba(0,0,0,.3);
-			}     
-            #search input[type=text]{ 
-                border:none;
-				font-size: large;
-				padding-left:10px;
-                width:300px;
-				height:42px;}
 			#banniere_image{
 				margin-top: 1px;
 				height: 1px;
@@ -58,7 +34,7 @@
 					
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="#">Métaphore de Cicéron</a></h1>
+						<h1><a href="#">Métaphores de Cicéron</a></h1>
 						<span>Marcus Tullius Cicero</span>
 					</div>
 				
@@ -73,12 +49,6 @@
 					</nav>
 
 			</div>
-			<div id="search">
-					<form action="search_result.php" method="get">
-						<input type= "text" name="data" placeholder="search..." required autofocus />
-						<input type="submit" class="submit1" alt="Submit button"  value="" />
-					</form>
-			</div>
 		</div>
 		<div id="banniere_image"> </div>
 
@@ -90,25 +60,7 @@
 				<header>
 					<h2>Bienvenue</h2><br>
 				</header>
-				<div class="row">
-					<div class="3u">
-						<section>
-							<div id = "bloc_extrait">
-							</div>
-						</section>
-					</div>	
-				</div>
-				<div class="divider">&nbsp;</div>
-				<div class="row">
-				
-					<!-- Content -->
-						<div class="8u skel-cell-important">
-							<section id="content">
-								<header>
-									<h2>Brève Bibliographie</h2>
-									<span class="byline"></span>
-								</header>
-								<p><strong>Cicéron</strong> est considéré comme le plus grand auteur latin classique, tant par son style que par la hauteur morale de ses vues.
+				<p><strong>Cicéron</strong> est considéré comme le plus grand auteur latin classique, tant par son style que par la hauteur morale de ses vues.
 								La partie de son œuvre qui nous est parvenue est par son volume une des plus importantes de la littérature
 								latine : discours juridiques et politiques, traités de rhétorique, traités philosophiques, correspondance.
 								Malgré le biais qu’impose le point de vue de l’auteur, elle représente une contribution prépondérante pour la connaissance de
@@ -119,8 +71,10 @@
 								éditions dignes de confiance si l'on en croit Aulu-GelleA 37, qui les lut deux siècles plus tard57. </p>
 								<br><p>Source : Wikipédia</p>
 								<a href="https://fr.wikipedia.org/wiki/Cic%C3%A9ron" class="button">Read More</a>
-							</section>
-						</div>
+				<div class="divider">&nbsp;</div>
+				<div class="row">
+				
+					<!-- Content -->
 					<!-- /Content -->
 						
 					<!-- Sidebar -->

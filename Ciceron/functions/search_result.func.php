@@ -2,10 +2,10 @@
 // la fonction qui va recuperer tout les discours
 function get_resultSearch($conn, $data )
 {		
-	$sql = "SELECT * FROM `mots - subdivisions` AS MS, mots WHERE mots.`MotLatinLemme` LIKE '%".$data."%' AND MS.MotLatinLemme = Mots.NuméroAuto";
+	$sql = "SELECT * FROM `mots_subdivisions` AS MS, mots WHERE mots.`MotLatinLemme` LIKE '%".$data."%' AND MS.MotLatinLemme = Mots.NumeroAuto";
 	$result = $conn->query($sql);
 	
-	$sql1 = "SELECT * FROM `mots - subdivisions` AS MS, mots WHERE mots.`MotLatinLemme` LIKE '".$data."' AND MS.MotLatinLemme = Mots.NuméroAuto";
+	$sql1 = "SELECT * FROM `mots_subdivisions` AS MS, mots WHERE mots.`MotLatinLemme` LIKE '".$data."' AND MS.MotLatinLemme = Mots.NumeroAuto";
 	$result1 = $conn->query($sql1);
 	
 	if ($result1->num_rows > 0) {
